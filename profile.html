@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar-left">
+            <a href="index.html" class="logo"><img src="images/logo.png"></a>
+            <div class="search-box">
+                <img src="images/search.png">
+                <input type="text" placholder="search">
+            </div>
+        </div>
+        <div class="navbar-center">
+            <ul>
+                <li><a href="#" class="active-link"><img src="images/home.png"><span>Home</span></a></li>
+                <li><a href="#"><img src="images/network.png"><span>My Network</span></a></li>
+                <li><a href="#"><img src="images/jobs.png"><span>Jobs</span></a></li>
+                <li><a href="#"><img src="images/message.png"><span>Messaging</span></a></li>
+                <li><a href="#"><img src="images/notification.png"><span>Notifications</span></a></li>
+            </ul>
+        </div>
+        <div class="navbar-right">
+            <div class="online">
+                <img src="images/user-2.jpg" class="nav-profile-img" onclick="toggleMenu()">
+            </div>
+
+        </div>
+
+        <!-------------profile-drop-down-menu-------------------------------------->
+        <div class="profile-menu-wrap" id="profileMenu">
+            <div class="profile-menu">
+                <div class="user-info">
+                    <img src="images/user-2.jpg">
+                    <div>
+                        <h3>Kareman Ahmed</h3>
+                        <a href="profile.html">See your profile</a>
+                    </div>
+                </div>
+                <hr>
+                <a href="#" class="profile-menu-link">
+                    <img src="images/feedback.png">
+                    <p>Give feedback</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="profile-menu-link">
+                    <img src="images/setting.png">
+                    <p>Setting & Privacy</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="profile-menu-link">
+                    <img src="images/help.png">
+                    <p>Help & Support</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="profile-menu-link">
+                    <img src="images/display.png">
+                    <p>Display & Accessiblity</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="profile-menu-link">
+                    <img src="images/logout.png">
+                    <p>Logout</p>
+                    <span>></span>
+                </a>
+            </div>
+        </div>
+
+
+    </nav>
+    <!---------------nav close---------------->
+
+    <div class="container">
+        <div class="profile-main">
+
+            <div class="profile-container">
+                <img src="images/cover-pic2.jpg" width="100%">
+                <div class="profile-container-inner">
+                    <img src="images/user-2.jpg" class="profile-pic">
+                    <h1>Kareman Ahmed</h1>
+                    <b>Full Stack Developer</b>
+                    <p>Sohag,Egypt &middot; <a href="#">Contact info</a></p>
+                    <div class="mutual-connection">
+                        <img src="images/user-2.png">
+                        <span>1 mutual connection or Ahmed Mohammed</span>
+                    </div>
+                    <div class="profile-btn">
+                        <a href="#" class="primary-btn"><img src="images/connect.png">Connect</a>
+                        <a href="#"><img src="images/chat.png">Message</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="profile-description">
+                <h2>About</h2>
+                <p>A full-stack developer is a programmer who works within software development and is knowledgeable in
+                    both the front end and back end of an application. They work to create a seamless user experience
+                    through their diverse skill set. They're also well-versed in databases, server configuration and
+                    user interface.
+
+                </p>
+                <a href="#" class="see-more-link">See more...</a>
+            </div>
+
+            <div class="profile-description">
+                <h2>Experience</h2>
+                <div class="profile-desc-row">
+                    <img src="images/microsoft.png">
+                    <div>
+                        <h3>Lead Full Stack Developer</h3>
+                        <b>Microsoft &middot; Full-time</b>
+                        <b>Feb 2021 - present &middot; 1 years</b>
+                        <p>A full-stack developer is a programmer who works within software development and is
+                            knowledgeable in both the front end and back end of an application. They work to create a
+                            seamless user experience through their diverse skill set. They're also well-versed in
+                            databases, server configuration and user interface.</p>
+                    <hr>
+                        </div>
+                </div>
+
+                <div class="profile-desc-row">
+                    <img src="images/slack.png">
+                    <div>
+                        <h3>Front End Developer</h3>
+                        <b>Stack &middot; Full-time</b>
+                        <b>Feb 2019 - present &middot; 3 years</b>
+                        <p>A full-stack developer is a programmer who works within software development and is
+                            knowledgeable in both the front end and back end of an application. They work to create a
+                            seamless user experience through their diverse skill set. They're also well-versed in
+                            databases, server configuration and user interface.</p>
+                    <hr>
+                        </div>
+                </div>
+                <div class="profile-desc-row">
+                    <img src="images/google.png">
+                    <div>
+                        <h3>Wep Developer</h3>
+                        <b>Google Inc &middot; Full-time</b>
+                        <b>Agust 2018 - present &middot; 4 years</b>
+                        <p>A full-stack developer is a programmer who works within software development and is
+                            knowledgeable in both the front end and back end of an application. They work to create a
+                            seamless user experience through their diverse skill set. They're also well-versed in
+                            databases, server configuration and user interface.</p>
+                    </div>
+                </div>
+                <hr>
+                <a href="#" class="experience-link">Show all 7 experience<img src="images/right-arrow.png"></a>
+            </div>
+
+            <div class="profile-description">
+                <h2>Education</h2>
+                <div class="profile-desc-row">
+                    <img src="images/sohag.jpg">
+                    <div>
+                        <h3>
+                          Sohag Unversity  
+                        </h3>
+                        <b>Entomology,Agriculuture Engineering</b>
+                    <b>2016-2020</b>
+                    <hr>
+                    </div>
+                </div>
+                <div class="profile-desc-row">
+                    <img src="images/iti.jpg">
+                    <div>
+                        <h3>
+                          ITI,Information Technology Institute  
+                        </h3>
+                        <b>Full Stack Developer</b>
+                    <b>2022-2023</b>
+                    <hr>
+                    </div>
+                </div>
+                <div class="profile-desc-row">
+                    <img src="images/iti.jpg">
+                    <div>
+                        <h3>
+                          ITI,Information Technology Institute  
+                        </h3>
+                        <b>Software Engineering</b>
+                    <b>2022-2023</b>
+                    </div>
+                </div>
+            </div>
+
+            <div class="profile-description">
+                <h2>Skills</h2>
+                <a href="#" class="skills-btn">Leadership</a>
+                <a href="#" class="skills-btn">HTML5&CSS3</a>
+                <a href="#" class="skills-btn">development</a>
+                <a href="#" class="skills-btn">communication</a>
+                <a href="#" class="skills-btn">planning</a>
+                <a href="#" class="skills-btn">coding</a>
+                <a href="#" class="skills-btn">Javascript</a>
+                <a href="#" class="skills-btn">wordpress</a>
+            </div>
+            <div class="profile-description">
+                <h2>Languages</h2>
+                <a href="#" class="language-btn">English</a>
+                <a href="#" class="language-btn">Fransh</a>
+                <a href="#" class="language-btn">japanaise</a>
+                <a href="#" class="language-btn">Arabic</a>
+            </div>
+        </div>
+
+        <!--------------profile-sidebar------------------->
+        <div class="profile-sidebar">
+
+            <div class="sidebar-ad">
+                <small>Ad &middot; &middot; &middot;</small>
+                <p>Master the 5 priciples of web design</p>
+                <div>
+                    <img src="images/user-2.jpg">
+                    <img src="images/mi-logo.png">
+                </div>
+                <b>Brand and Demand in Xiaomi</b>
+                <a href="#" class="ad-link">Learn More</a>
+             </div>
+             <div class="sidebar-people">
+                <h3>People you may know</h3>
+            <div class="sidebar-people-row">
+                <img src="images/user-3.png"> 
+                <div>
+                    <h2> Sara Ahmed</h2>
+                    <p>Head of Marketing at Alibaba</p>
+               <a href="#">Connect</a>
+                </div>
+            </div>
+            <div class="sidebar-people-row">
+                <img src="images/user-4.png"> 
+                <div>
+                    <h2> Nour Ahmed</h2>
+                    <p>Head of Marketing at Alibaba</p>
+               <a href="#">Connect</a>
+                </div>
+            </div>
+            <div class="sidebar-people-row">
+                <img src="images/user-5.png"> 
+                <div>
+                    <h2> Mohammed Ahmed</h2>
+                    <p>Head of Marketing at Alibaba</p>
+               <a href="#">Connect</a>
+                </div>
+            </div>
+            <div class="sidebar-people-row">
+                <img src="images/user-2.png"> 
+                <div>
+                    <h2> Karam Ali</h2>
+                    <p>Head of Marketing at Alibaba</p>
+               <a href="#">Connect</a>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    <div class="profile-footer">
+        <div class="sidebar-useful-links">
+            <a href="#">About</a>
+            <a href="#">Accessiblity</a>
+            <a href="#">Help Center</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Advertising</a>
+            <a href="#">Get the App</a>
+            <a href="#">More</a>
+            <div class="copyright-msg">
+               <img src="images/logo.png">
+               <p>Linkedup &#169; 2022. All right reserved </p>
+            </div>
+         </div>
+    </div>
+
+    <script>
+        let profileMenu = document.getElementById("profileMenu")
+        function toggleMenu() {
+            profileMenu.classList.toggle("open-menu");
+        }
+    </script>
+
+</body>
+
+</html>
